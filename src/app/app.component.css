@@ -5,6 +5,17 @@ p {
 h4{
   text-align: center; 
 }
-button{
-  align-items: center;
+input[type=text]{
+  width: 98%;
+  
+}
+button[type=button]{
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 10%;
+  width:20%;
 }
