@@ -1,7 +1,24 @@
 
-<h4> Wichtige Infos...</h4>
-<p>Name:</p>
-<form>
-  <input type="text" id="fname" name="fname"><br>
-  <button type="button" onclick="alert('Hello ')">Weiter</button>
-</form>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>A demonstration of how to access a Text Field</h3>
+
+<input type="text" id="myText" value="Some text...">
+
+<p>Click the "Try it" button to get the text in the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
